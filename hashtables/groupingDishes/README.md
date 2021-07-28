@@ -9,11 +9,13 @@ dishes = [["Salad", "Tomato", "Cucumber", "Salad", "Sauce"],
             ["Pizza", "Tomato", "Sausage", "Sauce", "Dough"],
             ["Quesadilla", "Chicken", "Cheese", "Sauce"],
             ["Sandwich", "Salad", "Bread", "Tomato", "Cheese"]]
+
 the output should be
 groupingDishes(dishes) = [["Cheese", "Quesadilla", "Sandwich"],
                             ["Salad", "Salad", "Sandwich"],
                             ["Sauce", "Pizza", "Quesadilla", "Salad"],
                             ["Tomato", "Pizza", "Salad", "Sandwich"]]
+
 For
 dishes = [["Pasta", "Tomato Sauce", "Onions", "Garlic"],
             ["Chicken Curry", "Chicken", "Curry Sauce"],
@@ -21,6 +23,7 @@ dishes = [["Pasta", "Tomato Sauce", "Onions", "Garlic"],
             ["Salad", "Spinach", "Nuts"],
             ["Sandwich", "Cheese", "Bread"],
             ["Quesadilla", "Chicken", "Cheese"]]
+
 the output should be
 groupingDishes(dishes) = [["Cheese", "Quesadilla", "Sandwich"],
                             ["Chicken", "Chicken Curry", "Quesadilla"],
